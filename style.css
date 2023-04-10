@@ -1,0 +1,166 @@
+body {
+  background-color: grey;
+}
+
+.topContent {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  border: 8px solid red;
+  border-radius: 15px;
+  box-shadow: 9px 9px 2px purple;
+  background-color: white;
+}
+.box1 {
+  height: 150px;
+  width: 500px;
+  font-size: 26px;
+  line-height: 45px;
+  text-shadow: 2px 2px 3px;
+  color: #800046;
+  padding-top: 15px;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+}
+.midContent {
+  border: 8px solid green;
+  height: 700px;
+}
+
+.box2 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 1px 2px purple;
+  line-height: 45px;
+  float: left;
+  margin-bottom: 100px;
+}
+
+img {
+  height: 120px;
+  width: 200px;
+  padding-top: 65px;
+  padding-left: 25px;
+}
+.box3 {
+  width: 250px;
+  height: 250px;
+  float: right;
+  position: relative;
+  right: 50px;
+}
+.box4 {
+  width: 250px;
+  height: 250px;
+  font-weight: bold;
+  text-shadow: 2px 1px 2px purple;
+  font-size: 26px;
+  float: left;
+  clear: left;
+}
+.box5 {
+  width: 250px;
+  height: 250px;
+  text-shadow: 2px 1px 2px purple;
+  font-size: 15px;
+  text-align: center;
+  float: right;
+  position: relative;
+  right: 50px;
+}
+.formHead {
+  font-size: 25px;
+  font-weight: bold;
+}
+input[type="submit"] {
+  background-color: red;
+  border-radius: 15px;
+}
+input[type="number"] {
+  text-align: center;
+  width: 100px;
+}
+.lowerContent {
+  height: 620px;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid purple;
+  background-color: green;
+}
+.lowerHeader {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  padding: 15px;
+}
+.boxtype2 {
+  border: 2px solid grey;
+  background-color: #f5f584;
+}
+.lowerbox1 {
+  height: 250px;
+  width: 400px;
+  float: left;
+  position: relative;
+  left: 2px;
+}
+.lowerTileHead {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+}
+.lowerTileBody {
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 40px;
+  text-align: center;
+}
+.lowerbox2 {
+  height: 250px;
+  width: 400px;
+  float: right;
+  position: relative;
+  right: 2px;
+}
+.lowerbox3 {
+  float: left;
+  width: 825px;
+  position: relative;
+  top: 8px;
+  left: 2px;
+}
+.floatingBanner {
+  background-color: #95de35;
+  height: 70px;
+  width: 500px;
+  border: 8px solid red;
+  border-radius: 15px;
+  box-shadow: 9px 9px 2px purple;
+  position: fixed;
+  display: flex;
+  padding-top: 20px;
+  left: 30%;
+  bottom: 100px;
+}
+.bannerText1 {
+  font-size: 26px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #8d2525;
+}
+.bannerText2 {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #8d2525;
+}
